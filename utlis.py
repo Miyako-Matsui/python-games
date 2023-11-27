@@ -5,7 +5,7 @@ def validate(hand):
 
 def print_hand(hand, name='guest'):
     hands = ["rock","scissors","paper"]
-    print(name + ' chose' + " "+hands[hand])
+    print(name + ' chose' + " "+ hands[hand])
 
 def judge(player, computer):
   if player == computer:
